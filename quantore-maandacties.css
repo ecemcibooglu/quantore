@@ -1,0 +1,150 @@
+.desktop-screen {
+    display: inline-block;
+}
+
+.mobile-screen {
+    display: none;
+}
+
+.products {
+object-fit: cover;
+width: 100%;
+}
+
+h4 {
+font-weight: 700!important;
+}
+
+.small-text {
+    font-size: 11px;
+}
+
+.col-lg-6 img {
+    height: 525px!important;
+    object-fit: contain;
+}
+
+.carousel .carousel-caption {
+    color: #999;
+}
+
+.red-link {
+    font-size: 18px!important;
+    color: red !important;
+}
+
+.red-link:hover {
+    font-size: 18px!important;
+    color: red !important;
+}
+
+.carousel-control-next {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    z-index: 1;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-align: center;
+    align-items: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+    width: 15%;
+    text-align: center;
+    opacity: 1;
+    transition: opacity .15s ease;
+}
+
+/* Buttons */
+
+.btn {
+    padding: 1rem 1rem!important;
+    border-radius: 18px!important;
+}
+
+.product-btn-green {
+    background-color: #148f48!important;
+    border: 2px solid #148f48!important;
+}
+
+.product-btn-green:hover {
+    background-color: transparent!important;
+    border: 2px solid #148f48!important;
+}
+
+.product-btn-black {
+    background-color: black!important;
+    color: white!important;
+    border: 2px solid black!important;
+}
+
+.product-btn-black:hover {
+    background-color: transparent!important;
+    color: black !important;
+    border: 2px solid black!important;
+}
+
+.product-btn-transparent {
+    background-color: transparent!important;
+    border: 2px solid black!important;
+}
+
+.product-btn-transparent:hover {
+    background-color: black!important;
+    color: white!important;
+    border: 2px solid black!important;
+}
+
+.product-btn-grey {
+    background-color: #747474!important;
+    border: 2px solid #747474!important;
+}
+
+.product-btn-grey:hover {
+    background-color: transparent!important;
+    border: 2px solid #747474!important;
+}
+
+.product-btn-red {
+    background-color: #c92a2a!important;
+    border: 2px solid #c92a2a!important;
+    color: white!important;
+}
+
+.product-btn-red:hover {
+    background-color: transparent!important;
+    border: 2px solid #c92a2a!important;
+    color: #c92a2a!important;
+}
+
+.product-btn-blue {
+    background-color: #015093!important;
+    border: 2px solid #015093!important;
+    color: white!important;
+}
+
+.product-btn-blue:hover {
+    background-color: transparent!important;
+    border: 2px solid #015093!important;
+    color: #015093!important;
+}
+
+/* Screen */
+
+@media screen and (max-width: 992px) {
+.desktop-screen {
+        display: none;
+}
+
+.mobile-screen {
+        display: inline-block;
+}
+
+.carousel-img {
+        max-height: 350px;
+}
+    
+.mb-mobile {
+margin-bottom: 5%!important;
+}
+}
